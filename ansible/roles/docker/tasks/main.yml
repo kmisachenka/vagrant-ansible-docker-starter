@@ -1,28 +1,5 @@
----
-- name: Add Docker repository and update apt cache
-  apt_repository:
-    repo: deb https://apt.dockerproject.org/repo ubuntu-trusty main
-    update_cache: yes
-    state: present
+- include: setup-debian.yml
+  when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu'
 
-- name: Docker is present
-  apt:
-    name: docker-engine
-    state: latest
-    force: yes
-
-- name: Docker Compose is present
-  get_url:
-    url: https://github.com/docker/compose/releases/download/1.8.1/docker-compose-Linux-x86_64
-    dest: /usr/local/bin/docker-compose
-
-- name: Docker Compose permissions are set
-  file:
-    path: /usr/local/bin/docker-compose
-    mode: 0755
-
-- name: Add user Vagrant to Docker group
-  user: name=vagrant group=docker append=yes
-
-- name: Restart docker service
-  service: name=docker state=restarted
+- include: setup-centos.yml
+  when: ansible_distribution == 'CentOS' or ansible_distribution == 'Red Hat Enterprise Linux'
