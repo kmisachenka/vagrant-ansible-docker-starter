@@ -1,7 +1,7 @@
 VAGRANTFILE_API_VERSION = '2'
 
 VM_BOX = 'ubuntu/trusty64'
-VM_HOSTNAME = 'local.dev'
+VM_HOSTNAME = 'dev.local'
 VM_IP = '192.168.10.10'
 VM_MEMORY = 2048
 
