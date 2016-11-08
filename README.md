@@ -1,6 +1,6 @@
 # Project starter for [Vagrant](https://www.vagrantup.com/) , [Ansibe](https://www.ansible.com/) , [Docker](https://www.docker.com/), etc.
 
-You can get an `ubuntu/trusty` VM with following installed applications:
+You can get an `ubuntu/trusty` or `centos/7` VM with following installed applications:
 * [Ansible](https://www.ansible.com/)
 * [Docker](https://www.docker.com/)
 * [Docker Compose](https://docs.docker.com/compose/)
