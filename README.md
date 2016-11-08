@@ -1,6 +1,6 @@
 # Project starter for [Vagrant](https://www.vagrantup.com/) , [Ansibe](https://www.ansible.com/) , [Docker](https://www.docker.com/), etc.
 
-You can get a VM with following installed applications:
+You can get an `ubuntu/trusty` VM with following installed applications:
 * [Ansible](https://www.ansible.com/)
 * [Docker](https://www.docker.com/)
 * [Node.js](https://nodejs.org/)
@@ -15,7 +15,7 @@ You can get a VM with following installed applications:
 
 VM will be downloaded and booted. Ansible will be installed into your VM then it install all of applications from the list above
 
-Then you can access to your application/project/something via URL `dev.local` or IP `192.168.10.10` (Feel free to change URL and/or IP)
+Then you can access to your application/project/something via URL `dev.local` or IP `192.168.10.10` (Feel free to modify any settings)
 
 ## License
 [MIT](https://github.com/kmisachenka/vagrant-ansible-docker-starter/blob/master/LICENSE)
