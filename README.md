@@ -3,6 +3,7 @@
 You can get an `ubuntu/trusty` VM with following installed applications:
 * [Ansible](https://www.ansible.com/)
 * [Docker](https://www.docker.com/)
+* [Docker Compose](https://docs.docker.com/compose/)
 * [Node.js](https://nodejs.org/)
 
 ## How to use
