@@ -1,4 +1,9 @@
-# Project starter for [Vagrant](https://www.vagrantup.com/) , [Ansibe](https://www.ansible.com/) , [Docker](https://www.docker.com/)
+# Project starter for [Vagrant](https://www.vagrantup.com/) , [Ansibe](https://www.ansible.com/) , [Docker](https://www.docker.com/), etc.
+
+You can get a VM with following installed applications:
+* [Ansible](https://www.ansible.com/)
+* [Docker](https://www.docker.com/)
+* [Node.js](https://nodejs.org/)
 
 ## How to use
 
