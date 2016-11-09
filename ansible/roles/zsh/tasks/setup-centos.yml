@@ -1,0 +1,3 @@
+---
+- name: Install zsh package
+  yum: name=zsh state=present

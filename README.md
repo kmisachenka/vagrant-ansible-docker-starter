@@ -5,6 +5,7 @@ You can get an `ubuntu/trusty` or `centos/7` VM with following installed applica
 * [Docker](https://www.docker.com/)
 * [Docker Compose](https://docs.docker.com/compose/)
 * [Node.js](https://nodejs.org/)
+* [Zsh](http://zsh.sourceforge.net/) ( [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) )
 
 ## How to use
 

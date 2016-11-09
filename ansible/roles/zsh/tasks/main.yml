@@ -1,0 +1,19 @@
+---
+- include: setup-debian.yml
+  when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu'
+
+- include: setup-centos.yml
+  when: ansible_distribution == 'CentOS' or ansible_distribution == 'Red Hat Enterprise Linux'
+
+- name: Clone oh-my-zsh repo
+  git:
+    repo: git://github.com/robbyrussell/oh-my-zsh.git
+    dest: /home/vagrant/.oh-my-zsh
+
+- name: Create a new zsh configuration file
+  command: cp /home/vagrant/.oh-my-zsh/templates/zshrc.zsh-template /home/vagrant/.zshrc
+
+- name: Change shell for Vagrant user
+  user:
+    name: vagrant
+    shell: /bin/zsh
