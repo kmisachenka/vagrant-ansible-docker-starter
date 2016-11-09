@@ -21,6 +21,15 @@ Then you can access to your application/project/something via URL/SSH `dev.local
 
 Feel free to modify any [settings](https://github.com/kmisachenka/vagrant-ansible-docker-starter/blob/master/Vagrantfile) of your future VM 
 
+## VM tech info (by default)
+
+OS: `Ubuntu 14.04.5 LTS (Trusty Tahr)`
+GUI: `False`
+RAM: `2GB`
+URL: `dev.local`
+IP: `192.168.10.10`
+User: `vagrant`
+Password: `vagrant`
 
 ## License
 [MIT](https://github.com/kmisachenka/vagrant-ansible-docker-starter/blob/master/LICENSE)
